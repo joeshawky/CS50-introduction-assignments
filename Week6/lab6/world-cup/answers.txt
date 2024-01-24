@@ -1,0 +1,19 @@
+Times:
+
+10 simulations: 0m0.024s
+100 simulations: 0m0.024s
+1000 simulations: 0m0.030s
+10000 simulations: 0m0.086s
+100000 simulations: 0m0.735s
+1000000 simulations: 0m6.597s
+
+Questions:
+
+Which predictions, if any, proved incorrect as you increased the number of simulations?:
+
+Somehow when the simulations is below 10000 it's almost constant time, however when more simulations are done, then the slope is exponential, not linear.
+
+Suppose you're charged a fee for each second of compute time your program uses.
+After how many simulations would you call the predictions "good enough"?:
+
+10000 simulations is good enough, after that the fee would become too high.
