@@ -1,2 +1,4 @@
 Makefile
 cs50-lib/*
+*.py
+folderGenerator.sh
